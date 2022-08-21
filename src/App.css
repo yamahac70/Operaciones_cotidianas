@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.arriba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.abajo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.abajo .item{
+  display: flex;
+  flex-direction: column-reverse;
+
+  align-items: reversed;
+
+}
+.arriba .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
